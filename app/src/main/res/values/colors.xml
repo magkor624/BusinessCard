@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#006064</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="orange">#E65100</color>
+    <!-- Color for background below the ImageView and for font above the ImageView -->
+    <color name="lightOrange">#FFF3E0</color>
+    <!-- Font color for TextViews below the ImageView and background above the ImageView.   -->
+    <color name="blueGreen">#006064</color>
+</resources>

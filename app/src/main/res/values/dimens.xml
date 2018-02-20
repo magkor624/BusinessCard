@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Padding size for title TextView. -->
+    <dimen name="padding_size">20dp</dimen>
+    <!-- Small margin for standard TextView. -->
+    <dimen name ="layout_margin_small">8dp</dimen>
+    <!-- Big margin for standard TextView. -->
+    <dimen name ="layout_margin_big">24dp</dimen>
+    <!-- Char size big for title TextView. -->
+    <dimen name ="char_big">26sp</dimen>
+    <!-- Char size small for standard TextView. -->
+    <dimen name ="char_small">16sp</dimen>
+    <!-- Image size for Lanscape. -->
+    <dimen name="image_height">100dp</dimen>
+</resources>

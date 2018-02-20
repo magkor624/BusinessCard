@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for Landscape with different size of ImageView. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightOrange"
+    android:orientation="vertical"
+    tools:context="com.example.android.businesscard.MainActivity">
+
+    <!-- Slogan.-->
+    <TextView
+        style="@style/CustomText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:background="@color/blueGreen"
+        android:padding="@dimen/padding_size"
+        android:text="@string/title"
+        android:textColor="@color/lightOrange"
+        android:textSize="@dimen/char_big" />
+
+    <!-- ImageView size scaled to Landscape mode. -->
+    <!-- Image from pexels.com Creative Commons Zero (CC0) license. -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height"
+        android:scaleType="centerCrop"
+        android:src="@drawable/child_low" />
+
+    <!-- Foundation name.-->
+    <!-- TextView small marginTop in Portait mode. -->
+    <TextView
+        style="@style/CustomText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_margin_small"
+        android:layout_marginTop="@dimen/layout_margin_small"
+        android:layout_weight="1"
+        android:text="@string/oko"
+        android:textSize="@dimen/char_big" />
+
+    <!-- Web.-->
+    <TextView
+        style="@style/CustomText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autoLink="web"
+        android:text="@string/web"
+        android:textColorLink="@color/blueGreen" />
+
+    <!-- E-mail.-->
+    <TextView
+        style="@style/CustomText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autoLink="email"
+        android:text="@string/e_mail"
+        android:textColorLink="@color/blueGreen" />
+
+    <!-- Short description.-->
+    <TextView
+        style="@style/CustomText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_margin_small"
+        android:layout_marginTop="@dimen/layout_margin_small"
+        android:layout_weight="1"
+        android:text="@string/charity" />
+</LinearLayout>
